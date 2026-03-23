@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//opt/homebrew/opt/**)",
+      "Bash(/usr/local/bin/npm run:*)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/usr/local/bin/npm --version)",
+      "Bash(PATH=/usr/local/bin:$PATH /usr/local/bin/npm run dev --prefix /Users/vikysangoi/Documents/finbox-erp-main)",
+      "Bash(PATH=/usr/local/bin:$PATH /usr/local/bin/npm install --prefix /Users/vikysangoi/Documents/finbox-erp-main)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(curl -s -X POST https://api.github.com/user/repos -H \"Authorization: token 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\" -H \"Accept: application/vnd.github.v3+json\" -d '{\"\"name\"\":\"\"FyndAP\"\",\"\"description\"\":\"\"FYND AP - Purchase-to-Pay & Accounts Payable System\"\",\"\"private\"\":true,\"\"auto_init\"\":false}')",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
