@@ -69,7 +69,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router basenamne="/FyndAP">
+        <Router basename="/FyndAP">
           <NavigationTracker />
           <AuthenticatedApp />
         </Router>
