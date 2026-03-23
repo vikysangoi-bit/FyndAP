@@ -33,10 +33,6 @@ jobs:
         run: npm ci
 
       - name: Build
-        env:
-          VITE_BASE44_APP_ID: ${{ secrets.VITE_BASE44_APP_ID }}
-          VITE_BASE44_APP_BASE_URL: ${{ secrets.VITE_BASE44_APP_BASE_URL }}
-          VITE_BASE44_FUNCTIONS_VERSION: ${{ secrets.VITE_BASE44_FUNCTIONS_VERSION }}
         run: npm run build
 
       - name: Upload artifact
